@@ -1,0 +1,96 @@
+main {
+  
+  // styling for Challenge #1:
+  .rect {
+    background-color: lightblue;
+    border: 2px solid burlywood;
+    font-size: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  p.divName {
+    margin: 0;
+    position: absolute;
+    top: .5em;
+  }
+
+  #center {
+    position: static;
+  }
+
+  .div1 {
+    margin: 30px;
+    height: 200px;
+    width: 300px;
+  }
+
+  .div2 {
+    height: 70%;
+    width: 70%;
+    background-color: lightgoldenrodyellow;
+  }
+
+  .div3 {
+    height: 50%;
+    width: 50%;
+    background-color: inherit;
+  }
+
+
+  // styling for Challenge #2 (3 versions):
+  .four-rectangles {
+    margin: 30px;
+    display: table;
+    border-collapse: collapse;
+    width: 70%;
+    .row {
+      border-collapse: collapse;
+      display: table-row;
+      width: 100%;
+      .unit {
+        display: table-cell;
+        border-collapse: collapse;
+        height: 100px;
+        border: 1px solid slategray;
+        width: 50%;
+      }
+    }
+  }
+
+
+  .container {
+    margin: 30px;
+    border-color: slategray;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    display: inline-block;
+    width: 70%;
+    .col {
+      float: left;
+      overflow: hidden; 
+      width: 50%;
+      .cell {
+        border: 1px solid slategray;
+        margin: -1px 0 0 -1px;
+        height: 100px;
+      }
+    }
+  }
+
+
+  table {
+    margin: 30px;
+    width: 70%;
+    border-collapse: collapse;
+    tr {
+      td {
+        border: 1px solid slategray;
+        height: 100px;
+      }
+    }
+  }
+
+}

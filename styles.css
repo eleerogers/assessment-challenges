@@ -1,0 +1,169 @@
+body, h1, h2, h3, h4, h5, h6, figure, pre, dl, dd, blockquote, input[type="radio"], input[type="checkbox"] {
+  margin: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+fieldset, ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  line-height: 1;
+}
+
+main, figure, figcaption, img {
+  display: block;
+}
+
+/*--- <main> for IE 11 ---*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+fieldset {
+  border: 0;
+}
+
+input, textarea, select, button {
+  display: block;
+  max-width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+label {
+  display: table;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
+  -webkit-appearance: none;
+}
+
+/*--- for Safari (add/remove types as needed) ---*/
+button {
+  line-height: inherit;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+/*--- for Firefox ---*/
+html {
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*--- optional base font size --- */
+main .rect {
+  background-color: lightblue;
+  border: 2px solid burlywood;
+  font-size: .7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+main p.divName {
+  margin: 0;
+  position: absolute;
+  top: .5em;
+}
+
+main #center {
+  position: static;
+}
+
+main .div1 {
+  margin: 30px;
+  height: 200px;
+  width: 300px;
+}
+
+main .div2 {
+  height: 70%;
+  width: 70%;
+  background-color: lightgoldenrodyellow;
+}
+
+main .div3 {
+  height: 50%;
+  width: 50%;
+  background-color: inherit;
+}
+
+main .four-rectangles {
+  margin: 30px;
+  display: table;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+main .four-rectangles .row {
+  border-collapse: collapse;
+  display: table-row;
+  width: 100%;
+}
+
+main .four-rectangles .row .unit {
+  display: table-cell;
+  border-collapse: collapse;
+  height: 100px;
+  border: 1px solid slategray;
+  width: 50%;
+}
+
+main .container {
+  margin: 30px;
+  border-color: slategray;
+  border-style: solid;
+  border-width: 1px 0 0 1px;
+  display: inline-block;
+  width: 70%;
+}
+
+main .container .col {
+  float: left;
+  overflow: hidden;
+  width: 50%;
+}
+
+main .container .col .cell {
+  border: 1px solid slategray;
+  margin: -1px 0 0 -1px;
+  height: 100px;
+}
+
+main table {
+  margin: 30px;
+  width: 70%;
+  border-collapse: collapse;
+}
+
+main table tr td {
+  border: 1px solid slategray;
+  height: 100px;
+}
+/*# sourceMappingURL=styles.css.map */
